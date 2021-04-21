@@ -482,6 +482,13 @@
 	/*----*****---- << Mobile (Landscape) >> ----*****----*/
 	
     @media only screen and (max-width: 767px) {
+		.img_mujer-ayuda {
+			position: absolute;
+			left: -45px;
+			top: 85px;
+			width: 100%;
+			display: block;
+		}
 		.margen-iconos-bioseguridad{
 			margin-left: 56px;
 		}
@@ -1088,7 +1095,7 @@
 		.ico-content-wrapper.type2 .ico-content { padding: 20px; text-align: center; }
 		.ico-content-wrapper.type2 .ico-content span { margin: 0 0 15px; position: static; }			
 		
-		.ico-content.type4 { padding: 0 0 15px 75px; }
+		.ico-content.type4 { padding: 0 0 15px 0px; }
 		.ico-content.type4 .icon { height: 50px; width: 50px; }
 		.ico-content.type4 .icon span { height: 50px; line-height: 50px; width: 50px; }
 		.ico-content.type4 .icon span.fa { font-size: 24px; }
