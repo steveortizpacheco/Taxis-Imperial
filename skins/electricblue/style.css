@@ -3,7 +3,7 @@
 
 /*----*****---- << Skin Backgrounds >> ----*****----*/
 
-.ico-content.type1:hover .icon span { background: #405069; }
+.ico-content.type1:hover .icon span { background: transparent; }
 
 .widget_tag_cloud a:hover { background: #8b9eba; }
 
@@ -28,7 +28,7 @@ th, .ico-content.type1, .ico-content-wrapper.type2:hover, ul.dt-sc-tabs-vertical
 
 .dt-sc-pricing-table.type2 thead tr th:nth-child(2n+2), .dt-sc-pricing-table.type2 tbody tr td:nth-child(2n+2) { background: #f3f8fd; }
 
-.ico-content-wrapper.type2, .dt-sc-social-icons li, .sociable_links li .fa, .search-prev, .search-next { background: #d3dae5; }
+.ico-content-wrapper.type2, .dt-sc-social-icons li, .sociable_links li .fa, .search-prev, .search-next { background: transparent; }
 
 ul.dt-sc-tabs-frame li a, .dt-sc-pr-tb-col, .dt-sc-box-content .dt-sc-button { background: #e8edf2; }
 
@@ -97,9 +97,9 @@ th, #bbar-wrapper.header1 .float-left .icon span, .testimonial-content blockquot
 
 th, .fullwidth-section.light-bg .dt-sc-toggle-frame  { border-bottom-color: #d3dae5; }
 
-ul.dt-sc-tabs, ul.dt-sc-tabs li a:after, .dt-sc-toggle-frame.last, .dt-sc-pricing-table.type2 th { border-bottom-color: #e8edf2; }
+ul.dt-sc-tabs, ul.dt-sc-tabs li a:after, .dt-sc-toggle-frame.last, .dt-sc-pricing-table.type2 th { border-bottom-color: #f5f0ec; }
 
-input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea, select, .selection-box:after, .searchform, .contact-info .textwidget p, .entry-meta, .entry-format, .portfolio-single p.item-desc, .post-nav-container, .side-nav-container ul li, .side-nav-container ul li:first-child, .side-nav-container ul li:hover a, .testimonial-content blockquote, ul.dt-sc-tabs-vertical-frame li, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li a, .dt-sc-pricing-table.type2 table, .dt-sc-pricing-table.type2 td, .dt-sc-tabs-frame-content, .dt-sc-toggle-frame, .widget_tag_cloud a, .frequent-loads li, .dt-sc-box-content, .dt-sc-box-content.first, .dt-sc-box-content:hover .dt-sc-box-overlay1, .dt-sc-box-content:hover .dt-sc-box-overlay2, .dt-sc-box-content:hover .dt-sc-box-overlay3, #bbar-wrapper.header1 .float-left .ico-phone, .dt-sc-pricing-table.type2 td.price .dt-sc-button { border-color: #fdecd0; }
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea, select, .selection-box:after, .searchform, .contact-info .textwidget p, .entry-meta, .entry-format, .portfolio-single p.item-desc, .post-nav-container, .side-nav-container ul li, .side-nav-container ul li:first-child, .side-nav-container ul li:hover a, .testimonial-content blockquote, ul.dt-sc-tabs-vertical-frame li, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li a, .dt-sc-pricing-table.type2 table, .dt-sc-pricing-table.type2 td, .dt-sc-tabs-frame-content, .dt-sc-toggle-frame, .widget_tag_cloud a, .frequent-loads li, .dt-sc-box-content, .dt-sc-box-content.first, .dt-sc-box-content:hover .dt-sc-box-overlay1, .dt-sc-box-content:hover .dt-sc-box-overlay2, .dt-sc-box-content:hover .dt-sc-box-overlay3, #bbar-wrapper.header1 .float-left .ico-phone, .dt-sc-pricing-table.type2 td.price .dt-sc-button { border-color: #f5f0ec; }
 
 .pagination ul li a { border-bottom-color: #405069; }
 
@@ -124,18 +124,18 @@ ul.dt-sc-tabs-vertical-frame li.current a:after, ul.dt-sc-tabs li a.current:afte
 
 #bbar-wrapper.header1, #bbar-wrapper.header1 a, #header.header5 #main-menu ul > li.current_page_ancestor > a, #header.header5 #main-menu ul > li.current-menu-item > a, #header.header5 #main-menu ul > li.current-menu-ancestor > a, #header.header5 .megamenu-child-container ul.sub-menu > li > ul li a:hover, #main-menu ul li.menu-item-simple-parent ul li a:hover, .dt-sc-pr-tb-col:hover .dt-sc-price, .dt-sc-pr-tb-col:hover .dt-sc-tb-title h5, .dt-sc-pr-tb-col.selected .dt-sc-price, .dt-sc-pr-tb-col.selected .dt-sc-tb-title h5 { color: #2a99d8; }
 
-.ico-content.type1 h5 a:hover, #footer .widget a:hover { color: #8b9eba; }
+.ico-content.type1 h5 a:hover, #footer .widget a:hover { color: #fce1b6; }
 
 
 /*----*****---- << Other Generic Colors >> ----*****----*/
 
 body, p, .dt-sc-team h6, .portfolio-bottom, .widget_categories ul li a, .widget_tag_cloud a, .blog-entry.single .entry-meta-data, .error-info span.msg, ul.commentlist li .commentmetadata, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li a, h5.dt-sc-toggle-accordion a, h5.dt-sc-toggle a, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion a, .dt-sc-toggle-frame h5.dt-sc-toggle a, .dt-sc-pricing-box, .dt-sc-progress .dt-sc-bar-text, .testimonial-content blockquote cite, ul.dt-sc-fancy-list.type2 li, .fullwidth-section.dt-sc-parallax ul.dt-sc-fancy-list.type3 li { color: #757575; }
 
-h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a, #bbar-wrapper, ul.dt-sc-tabs li a, .dt-sc-pr-tb-col .dt-sc-tb-content, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li a.current, h5.dt-sc-toggle-accordion.active a, h5.dt-sc-toggle.active a, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active a, .dt-sc-toggle-frame h5.dt-sc-toggle.active a, .dt-sc-pricing-table.type2 th, .dt-sc-pricing-table.type2 th:first-child, .dt-sc-pricing-table.type2 td:first-child, #secondary .widgettitle, .testimonial-content blockquote cite span, .progress-bar-wrapper .donutchart .donutcharttext, .dt-sc-domains-list ul li span, .dt-sc-tooltip-top, .dt-sc-tooltip-right, .dt-sc-tooltip-bottom, .dt-sc-tooltip-left, .dt-sc-tooltip-top:hover, .dt-sc-tooltip-right:hover, .dt-sc-tooltip-bottom:hover, .dt-sc-tooltip-left:hover, .megamenu-child-container > ul.sub-menu > li > a, .megamenu-child-container > ul.sub-menu > li > .nolink-menu, .slide-nav-control-wrapper ul li a { color: #121212; }	
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a, #bbar-wrapper, ul.dt-sc-tabs li a, .dt-sc-pr-tb-col .dt-sc-tb-content, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li a.current, h5.dt-sc-toggle-accordion.active a, h5.dt-sc-toggle.active a, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active a, .dt-sc-toggle-frame h5.dt-sc-toggle.active a, .dt-sc-pricing-table.type2 th, .dt-sc-pricing-table.type2 th:first-child, .dt-sc-pricing-table.type2 td:first-child, #secondary .widgettitle, .testimonial-content blockquote cite span, .progress-bar-wrapper .donutchart .donutcharttext, .dt-sc-domains-list ul li span, .dt-sc-tooltip-top, .dt-sc-tooltip-right, .dt-sc-tooltip-bottom, .dt-sc-tooltip-left, .dt-sc-tooltip-top:hover, .dt-sc-tooltip-right:hover, .dt-sc-tooltip-bottom:hover, .dt-sc-tooltip-left:hover, .megamenu-child-container > ul.sub-menu > li > a, .megamenu-child-container > ul.sub-menu > li > .nolink-menu, .slide-nav-control-wrapper ul li a { color: #3f4149; }	
 
 input[type=submit], input[type=button], button, .dt-sc-button, .portfolio:hover .image-overlay a span:hover, ul.dt-sc-tabs-vertical-frame li.current a { color: #fff; }
 
-h5.dt-sc-toggle:before, h5.dt-sc-toggle-accordion:before, .slide-nav-control-wrapper ul li a .fa { color: #4b5a72; }
+h5.dt-sc-toggle:before, h5.dt-sc-toggle-accordion:before, .slide-nav-control-wrapper ul li a .fa { color: #e28b56; }
 
 #bbar-wrapper.header1 p, .entry-meta .ico-format:hover:before, .entry-meta a:hover, .entry-meta a:hover i, .commententries h2 a:hover, .comment-reply-link:hover, .post-nav-container a:hover, .post-nav-container a:hover i, .carousel-gallery li .entry-body a.readmore:hover, .contact-info a:hover, .dropcap.dropcap-default, .ico-content .icon span, .ico-content-wrapper.type2 .ico-content span, .ico-content-wrapper.type2 .ico-content h3, .frequent-loads li a, .slide-controls li a, .slide-controls li a:hover, .dt-sc-pricing-box span, ul.dt-sc-fancy-list.type2 li:before, ul.dt-sc-fancy-list.type3 li .fa, .ico-content-wrapper.type3 h3, .frequent-loads li .dom-pack, .page_info h3, .page_info h2, .page_info p a:hover { color: #405069; }
 
