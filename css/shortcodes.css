@@ -87,7 +87,7 @@
 	/*****---- << Framed Toggle & Accordion >> ----*****/
 	
 	.dt-sc-toggle-frame h5.dt-sc-toggle-accordion a, .dt-sc-toggle-frame h5.dt-sc-toggle a { padding:15px 15px 15px 40px; }
-	.dt-sc-toggle-frame .dt-sc-toggle-content { margin: 0; padding: 0 5px 18px 18px; }	
+	.dt-sc-toggle-frame .dt-sc-toggle-content { margin: 0; padding: 30px 44px 30px 44px; }	
 	.dt-sc-toggle-frame h5.dt-sc-toggle-accordion:before, .dt-sc-toggle-frame h5.dt-sc-toggle:before { left: 18px; }
 	
 	.dt-sc-toggle-frame h5.dt-sc-toggle:before, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:before { background: none; border: none; height: auto; padding: 0; text-align: inherit; top: 16px; width: auto; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; }
@@ -511,11 +511,17 @@
 	
 	/*----*****---- << Animated Num Chart  >> ----*****----*/	
 
-	.dt-sc-animate-num { text-align: left; padding-left: 50px;margin-top: -11px; }
-	.dt-sc-animate-num .dt-sc-icon { height: 66px; margin-bottom: 15px; margin-left: auto; margin-right: auto; position: relative; text-align: center; width: 66px; }
-	.dt-sc-animate-num .dt-sc-num-count { color: #3f4149; display: inline-block; font-size: 80px; margin-bottom: 10px;  position: relative;font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 12px; }
+	.dt-sc-animate-num { text-align:center; padding-left: 50px; }
+	.dt-sc-animate-num .dt-sc-icon { height: 150px; margin-bottom: 15px; margin-top: 20px; margin-left: auto; margin-right: auto; position: relative; text-align: center; width: 150px; }
+	.dt-sc-animate-num .dt-sc-num-count { color: #3f4149; display: inline-block; font-size: 40px; margin-bottom: 10px;  position: relative;font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: 8px; margin: 0 auto; }
+	.numero_datos{color: #3f4149; display:block; font-size: 30px; margin-bottom: 10px; font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: 8px;}
+	.percent{position: relative;}
+	.percent:after{position: absolute;right: -30px;top:0;content: "+";font-size: 34px;color: #3f4149;}
+	.punto{position: relative;}
+	.punto:before{position: absolute;right: 97px;top:0;content: ".";font-size: 34px;color: #3f4149;}
+
 	/*.dt-sc-animate-num .dt-sc-num-count:after { content:""; border-bottom: 1px solid #fff; bottom: 0; left: 0; margin: 0 auto; position: absolute; right: 0; width: 50px; }*/
-	.dt-sc-animate-num span { color: #3f4149; display: block; font-size: 13px; line-height: 20px; margin-bottom: 0; text-transform: capitalize; text-align: justify;  }
+	.dt-sc-animate-num span { color: #3f4149; display: block; font-size: 14px; line-height: 20px; margin-bottom: 20px;  text-align: center; font-weight: 600;  }
 	
 	/*----*****---- << Testimonials >> ----*****----*/
 	
@@ -668,7 +674,7 @@
 	/*----*****---- << Lists >> ----*****----*/
 	
 	ul.dt-sc-fancy-list, ul.dt-sc-fancy-list.type2 { list-style-type: none; list-style-position: outside; }
-	ul.dt-sc-fancy-list li { display: block; line-height: 36px; padding-left: 20px; position: relative; }
+	ul.dt-sc-fancy-list li { display: block; line-height: 23px; padding-left: 5px; position: relative; font-size: 12px; }
 	ul.dt-sc-fancy-list.type2 li { font-size: 16px; line-height: 30px; padding-left: 30px; padding-bottom: 0; }
 	ul.dt-sc-fancy-list li ul { padding-left: 0; }
 	
@@ -759,7 +765,7 @@
 	ul.dt-sc-fancy-list.skyblue li:before { color:#00bfff; }
 	ul.dt-sc-fancy-list.coral li:before { color:#ff7f50; }
 	ul.dt-sc-fancy-list.khaki li:before { color:#b6af55; }
-	ul.dt-sc-fancy-list.cyan li:before { color:#00cdcd; }
+	ul.dt-sc-fancy-list.cyan li:before { color:#f0b556; }
 	ul.dt-sc-fancy-list.grey li:before { color:#8e8e8e; }	
 	ul.dt-sc-fancy-list.gold li:before { color:#e0a81c; }
 	ul.dt-sc-fancy-list.chocolate li:before { color:#cd661d; }
@@ -842,7 +848,7 @@
 	.ico-content.type1:hover p { color:#4a4a4a; }	
 	
 	.ico-content-wrapper.type2 { padding: 4px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; transform: rotate(1.2deg); -webkit-transform: rotate(1.2deg); -moz-transform: rotate(1.2deg); -ms-transform: rotate(1.2deg); -o-transform: rotate(1.2deg); transition:all 300ms linear; -webkit-transition:all 300ms linear; -moz-transition:all 300ms linear; -o-transition:all 300ms linear; -ms-transition:all 300ms linear; }
-	.ico-content-wrapper.type2 .ico-content { background: #fff; padding: 20px 20px 20px 75px; position: relative; text-align: left; width: auto; transform: rotate(-1.2deg); -webkit-transform: rotate(-1.2deg); -moz-transform: rotate(-1.2deg); -ms-transform: rotate(-1.2deg); -o-transform: rotate(-1.2deg); }
+	.ico-content-wrapper.type2 .ico-content { background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.6));border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);border-top-left-radius: 16px;border-bottom-right-radius: 16px; padding: 20px 20px 20px 75px; position: relative; text-align: left; width: auto;  margin-bottom: 50px;  }
 	.ico-content-wrapper.type2 .ico-content:after, .ico-content-wrapper.type3 .ico-content:after { content: none; }	
 	.ico-content-wrapper.type2 .ico-content span { font-size: 50px; line-height: 50px; left: 6px; position: absolute; text-align: center; top: 18px; width: 65px; }
 	.ico-content-wrapper.type2 .ico-content p { color: #757575; margin: 0; padding: 0; }
@@ -858,7 +864,7 @@
 	.ico-content-wrapper.type3 .ico-content h4 { line-height: 20px; margin: 0; padding: 14px 0 0; text-align: left; }
 	.ico-content-wrapper.type3 h3 { font-size: 18px; }	
 	
-	.ico-content.type4 { margin: 0 0 63px; padding: -3px 0 12px 0px; position: relative; display: flex; }
+	.ico-content.type4 { margin: 0 0 12px; padding: -3px 0 12px 0px; position: relative; display: flex; }
 	.ico-content.type4 .icon { display: inline-block; height: 60px; position: absolute; left: 0; top: 2px; width: 60px; }
 	.ico-content.type4 .icon span { border: medium none; color: #fff; display: inline-block; height: 60px; line-height: 60px; position: relative; text-align: center; width: 60px; }
 	.ico-content.type4 .icon span.fa { font-size: 30px; }	
