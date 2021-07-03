@@ -39,10 +39,7 @@
     /* Note: Design for a width of 768px, Gutter: 30px, Unit: 32px */
 
     @media only screen and (min-width:960px) and (max-width:1240px) {
-		.margen-boton-header{
-			margin-top: 80px;
-    margin-left: -24px;
-		} 
+	
 		.dt-sc-testimonial-carousel-wrapper .testimonial-wrapper { padding: 0; }
 		.testimonial-content-wrapper { width:75%; }
 		
@@ -191,12 +188,6 @@
 			display: none;
 	
 		}
-		
-		
-		.margen-boton-header{
-			margin-top: 80px;
-    		margin-left: -24px;
-		} 
 		.dt-sc-testimonial-carousel-wrapper .testimonial-wrapper { padding: 0; }
 		.testimonial-content-wrapper { width:75%; }
 		
@@ -482,10 +473,28 @@
 	/*----*****---- << Mobile (Landscape) >> ----*****----*/
 	
     @media only screen and (max-width: 767px) {
+		.margen-boton-header{
+			margin-top: 80px;
+    		margin-left: -24px;
+		}
+		.margen-boton-header-2{
+			margin-top: 170px;
+			margin-left: -105px;
+		}  
+		.triangulo-01{
+			width: 0px;
+                        height: 0px;
+                        float: left;
+                        display: inline-block;
+                        border-right: 1300px solid #f5f0ec;
+                        border-top: 204px solid transparent;
+                        border-left: 125px solid transparent;
+                        border-bottom: 18px solid #f5f0ec;
+		}
 		.img_mujer-ayuda {
 			position: absolute;
 			left: -45px;
-			top: 85px;
+			top: -295px;
 			width: 100%;
 			display: block;
 		}
@@ -514,8 +523,8 @@
 	}
 		.texto_sliders-01{
 			
-			font-size: 24px; 
-			line-height: 32px; 
+			font-size: 20px; 
+			line-height: 24px; 
 			
 		}
 		.boton-header-02{
@@ -529,11 +538,7 @@
 		
 		
 		
-		.margen-boton-header{
-			margin-top: 80px;
-    margin-left: -24px;
-		} 
-		
+
 		
 		/*----*****---- << Columns >> ----*****----*/		
 		
@@ -635,9 +640,61 @@
 		.hasImage-bg .megamenu-child-container { background-image: none; }		
 		
 		.dl-menuwrapper { margin: 0; position: absolute; right: 0; top: 0; width: 100%; }		
-		.dl-menuwrapper button { background: #5d6b81; border: none; cursor: pointer; float:right; height: 62px; margin: 0; outline: none; overflow: hidden; padding: 0; position: relative; text-indent: -900em; width: 70px; }		
+		.dl-menuwrapper button { background-color: #e28b56; border: none; cursor: pointer; float:right; height: 40px; margin: 0; outline: none; overflow: hidden; padding: 0; position: relative; text-indent: -900em; width: 40px; border-radius: 50%; border: 2px solid rgba(250, 250, 250, 0.5); }
+		}
 		
-		.dl-menuwrapper button:after { background: #fff; content: ''; height: 5px; left: 16%; position:absolute; top: 17px ; width: 68%; box-shadow: 0 12px 0 #fff, 0 24px 0 #fff; -webkit-box-shadow: 0 12px 0 #fff, 0 24px 0 #fff; -moz-box-shadow: 0 12px 0 #fff, 0 24px 0 #fff; -ms-box-shadow: 0 12px 0 #fff, 0 24px 0 #fff; -o-box-shadow: 0 12px 0 #fff, 0 24px 0 #fff; }		
+		.dl-menuwrapper button:after {
+			background-color: #fff;
+			content: '';
+			position: absolute;
+			top: 0;
+			border-radius: 26px;
+			height: 3px;
+			width: 40%;
+			left: 11px;
+			top: 40%;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all ease .238s;
+			-moz-transition: all ease .238s;
+				 transition: all ease .238s;
+		 }
+		 .dl-menuwrapper button:before {
+			 background-color: #fff;
+			content: '';
+			position: absolute;
+			top: 0;
+			border-radius: 26px;
+			height: 3px;
+			width: 40%;
+			left: 11px;
+			top: 40%;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all ease .238s;
+			-moz-transition: all ease .238s;
+				 transition: all ease .238s;
+		 }
+
+				.dl-menuwrapper button:after {
+					-webkit-transform: translate3d(0, -7px, 0);
+				 transform: translate3d(0, -7px, 0);
+				 }
+				 .dl-menuwrapper button:before {
+					-webkit-transform: translate3d(0, 7px, 0);
+					transform: translate3d(0, 7px, 0);}
+					
+					.dl-menuwrapper button.dl-active:after{
+						-webkit-transform: rotate3d(0, 0, 1, -45deg);
+            transform: rotate3d(0, 0, 1, -45deg);
+
+					}
+					.dl-menuwrapper button.dl-active:before{
+						-webkit-transform: rotate3d(0, 0, 1, 45deg);
+            transform: rotate3d(0, 0, 1, 45deg);
+					}
 		
 		.page-slider-wrapper h3 { font-size: 18px; line-height: 30px; margin-bottom: 10px; }
 		.slide-nav-control-wrapper ul li a { font-size: 12px; }
@@ -688,6 +745,33 @@
     /* Note: Design for a width of 480px */
 		
     @media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.margen-boton-header{
+			margin-top: 80px;
+    		margin-left: -24px;
+		}
+		.margen-boton-header-2{
+			margin-top: 120px;
+    	margin-left: -24px;
+		}  
+		.img_mujer-ayuda {
+			position: absolute;
+			left: -45px;
+			top: -295px;
+			width: 100%;
+			display: block;
+		}
+		.margen-lateral{
+			margin-left: 5px !important;
+		}
+		.dt-sc-team.type1 {
+			padding: 30px 12px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			-o-box-sizing: border-box;
+		}
 		.carousel-arrows {
 			padding-left: 20px;
 			position: absolute;
@@ -695,10 +779,7 @@
 			right: 119px;
 		}
 		
-		.margen-boton-header{
-			margin-top: 80px;
-    margin-left: -24px;
-		} 
+
 		
 		.container { width:420px; }
 		.container-fluid { margin: 0 auto;width: 420px; }
@@ -880,6 +961,124 @@
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 		
 	@media only screen and (max-width: 479px) {
+		.img_app_viajero {
+			float: left;
+			padding-top: 20px;
+			padding-left: 42px;
+			padding-right: 71px;
+			padding-bottom: 0;
+			margin-top: -9px;
+		}
+		.texto-nosotros{
+			padding: 0 5px 0 5px;
+			text-align: justify;
+			margin-top: 20px;
+			margin-bottom: 120px;
+		}
+		.lineas-nosotros-01{
+			width: 100%;
+			height: 20px;
+			background: linear-gradient( 
+		90deg
+		, rgb(240, 181, 86), rgb(251, 196, 108));
+			position: relative;
+			margin-top: -92px;
+			margin-bottom: 30px;
+			box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+		}
+		.lineas-nosotros-02{
+			width: 100%;
+		height: 10px;
+		background: linear-gradient( 
+	90deg
+	, rgb(224, 138, 85), rgb(248, 151, 92));
+		position: relative;
+		margin-top: -20px;
+		margin-bottom: 90px;
+		box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+		}
+		.imagen-nosotros{
+			margin: 0 auto;
+		display: block;
+		box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+		margin-top: 110px;
+		}
+		.texto_inicio_seccion_2 {
+			margin-top: -72px;
+			color: #f5f0ec;
+			font-size: 60px;
+			letter-spacing: 4px;
+			font-weight: 600;
+		}
+		.texto_inicio_seccion_3 {
+			margin-top: -58px;
+			color: #f5f0ec;
+			font-size: 50px;
+			letter-spacing: 4px;
+			font-weight: 600;
+		}
+	
+		.texto_inicio_seccion {
+			margin-top: -41px;
+			color: #f5f0ec;
+			font-size: 60px;
+			letter-spacing: 4px;
+			font-weight: 600;
+		}
+		.linea_datos {
+			border-right: none;
+		}
+		.dt-sc-animate-num { text-align:center; padding-left: 0px; padding-right: 0px;}
+		.dt-sc-two-sixth {
+			width: 100%;
+		}
+		h1 {
+			font-size: 20px;
+			line-height: 40px;
+		}
+	
+		.copyright {
+			background: #f5f0ec;
+			clear: both;
+			float: left;
+			color: #8496b0;
+			padding: 61px 0 10px;
+			text-align: center;
+			width: 100%;
+		}
+		.imagen-footer{
+			position: absolute;
+			margin-top: 1704px;
+			left: 0;
+			display: block;
+			overflow: hidden;
+			width: 100%;
+			}
+		.img_mujer-ayuda {
+			position: absolute;
+			left: -45px;
+			top: -235px;
+			width: 100%;
+			display: block;
+		}
+		.margen-superior-inferior{
+			margin-top: 200px; margin-bottom: 100px;
+		}
+		.ico-content.type4{
+			display: block;
+		}
+		.column.first_3 { margin-left: 28px; }
+		.margen-lateral{
+			margin-left: 0px !important;
+		}
+		.dt-sc-team.type1 {
+			padding: 30px 12px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			-o-box-sizing: border-box;
+		}
 		.carousel-arrows {
 			padding-left: 20px;
 			position: absolute;
@@ -933,18 +1132,70 @@
 		.searchform { margin-bottom: 10px; width: 100%; }		
 				
 		#header { min-height: 52px; height: 100%; }
-		#logo, #header.header2 #logo, #header.header3 #logo, #header.header4 #logo { margin: 7px 0 0; text-align: center; position: relative; width: 82%; z-index: 9; }
+		#logo, #header.header2 #logo, #header.header3 #logo, #header.header4 #logo { margin: 17px 89px 0; text-align: center; position: relative; width: 52%; z-index: 9; }
 		#header .container, #logo, #logo a { height: 100%; }
 		
 		/** Menu **/			
-		.dl-menuwrapper button { height: 52px; width: 52px; }		
-		.dl-menuwrapper button:after { top: 14px ; box-shadow: 0 10px 0 #fff, 0 20px 0 #fff; -webkit-box-shadow: 0 10px 0 #fff, 0 20px 0 #fff; -moz-box-shadow: 0 10px 0 #fff, 0 20px 0 #fff; -ms-box-shadow: 0 10px 0 #fff, 0 20px 0 #fff; -o-box-shadow: 0 10px 0 #fff, 0 20px 0 #fff; }
-		.dl-menuwrapper .dl-menu { top: 0px; padding-top: 100px; text-align: center; }
+		.dl-menuwrapper button { height: 40px; width: 40px;margin-top: 10px; margin-right: 10px; }
+		
+		
+		.dl-menuwrapper button:after {
+			background-color: #fff;
+			content: '';
+			position: absolute;
+			top: 0;
+			border-radius: 26px;
+			height: 3px;
+			width: 40%;
+			left: 11px;
+			top: 40%;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all ease .238s;
+			-moz-transition: all ease .238s;
+				 transition: all ease .238s;
+		 }
+		 .dl-menuwrapper button:before {
+			 background-color: #fff;
+			content: '';
+			position: absolute;
+			top: 0;
+			border-radius: 26px;
+			height: 3px;
+			width: 40%;
+			left: 11px;
+			top: 40%;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all ease .238s;
+			-moz-transition: all ease .238s;
+				 transition: all ease .238s;
+		 }
+		 .dl-menuwrapper button:after {
+			-webkit-transform: translate3d(0, -7px, 0);
+         transform: translate3d(0, -7px, 0);
+		 }
+		 .dl-menuwrapper button:before {
+			-webkit-transform: translate3d(0, 7px, 0);
+            transform: translate3d(0, 7px, 0);
+		}
+		.dl-menuwrapper button.dl-active:after{
+			-webkit-transform: rotate3d(0, 0, 1, -45deg);
+transform: rotate3d(0, 0, 1, -45deg);
+
+		}
+		.dl-menuwrapper button.dl-active:before{
+			-webkit-transform: rotate3d(0, 0, 1, 45deg);
+            transform: rotate3d(0, 0, 1, 45deg);
+		}
+		.dl-menuwrapper .dl-menu { top: 0px; padding-top: 280px; text-align: center;  }
 		
 		
 		/*----*****---- << Main >> ----*****----*/	
 		
-		h1 { font-size:30px; line-height:40px; }
+		h1 { font-size:20px; line-height:40px; }
 		h2 { font-size:20px; }
 		h3 { font-size:18px; }
 		h2.title { font-size:20px; }
@@ -1194,7 +1445,7 @@
 		
 		.carousel-testimonials li .rounded-image { margin: 20px 6px 0; }		
 		
-		#primary .carousel-arrows { top:723px; }
+		#primary .carousel-arrows { top:-23px; }
 		.widget .carousel-arrows { top:2px; }			
 		
 		.mytheme-map { margin:-60px 0 50px; }
@@ -1228,7 +1479,7 @@
 		#header.header5 .container, #header.header5 #main-menu ul.menu > li > .megamenu-child-container > ul.sub-menu { width: 200px; }		
 								
 		/** Menu **/		
-		.dl-menuwrapper button { height: 44px; width: 44px; }
+		.dl-menuwrapper button { height: 40px; width: 40px; }
 		.dl-menuwrapper button:after { height: 4px; top: 11px; }
 		.dl-menuwrapper .dl-menu { top: 44px; }
 		

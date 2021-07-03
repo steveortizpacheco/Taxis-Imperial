@@ -14,8 +14,8 @@
 	.dt-sc-hr.top a:hover { color: #333334; }
 	.dt-sc-hr.top a span { margin-right: 2px; }	
 		
-	.dt-sc-hr-border { border-bottom: 1px solid #ebebeb; clear:both; display:block; float:left; height:1px; margin:45px 0; position:relative; width:100%; z-index:1; }	
-	.dt-sc-hr-border:after { content: ""; background-color: #fff; background-image: url(../images/hr-border-ico-bg.png); background-position: center center; background-repeat: no-repeat; height: 20px; left: 0; margin: 0 auto; padding: 0 12px; position: absolute; right: 0; text-align: center; top: -10px; width: 33px; }
+	.dt-sc-hr-border { border-bottom: 2px dashed #d7cfc8; clear:both; display:block; float:left; height:1px; margin:45px 0; position:relative; width:100%; z-index:1; }	
+	/*.dt-sc-hr-border:after { content: ""; background-color: #fff; background-image: url(../images/hr-border-ico-bg.png); background-position: center center; background-repeat: no-repeat; height: 20px; left: 0; margin: 0 auto; padding: 0 12px; position: absolute; right: 0; text-align: center; top: -10px; width: 33px; }*/
 		
 	.dt-sc-hr-invisible { clear:both; display:block; float: left; margin: 25px 0; width: 100%; }
 	.dt-sc-hr-invisible-large { clear:both; display:block; float: left; margin: 50px 0; width: 100%; }
@@ -94,7 +94,7 @@
 		
 	/*----*****---- << Buttons >> ----*****----*/
 		
-	.dt-sc-button {  cursor:pointer; display:inline-block; *display:inline; font-size:15px; margin: 10px 0 0; position: relative; zoom:1;  border: 4px solid  rgba(250, 250, 250, 0.3); border-top-left-radius: 16px; border-bottom-right-radius: 16px;}
+	.dt-sc-button {  cursor:pointer; display:inline-block; display:inline; font-size:15px; margin: 10px 0 0; position: relative; zoom:1;  border: 4px solid  rgba(250, 250, 250, 0.3); border-top-left-radius: 16px; border-bottom-right-radius: 16px;}
 	.dt-sc-button:hover { color:#fff !important; }	
 	
 	.dt-sc-button.ico-button { background: #3575b9; color: #fff; display: inline-block; font-family: 'Ubuntu', 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 24px; margin: 10px 0 0; padding: 0 0 0 25px; position: relative; text-decoration: none; text-transform: uppercase; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; }
@@ -151,7 +151,7 @@
 	.dt-sc-button.pink:hover { background:#f25ac8; *background:#f25ac8; background:#f25ac8\0/; }	
 	.dt-sc-button.lightgreen:hover { background:#799f4a; *background:#799f4a; background:#799f4a\0/; }	
 	.dt-sc-button.limegreen:hover { background:#afc037; *background:#afc037; background:#afc037\0/; }	
-	.dt-sc-button.ocean:hover { background-color: rgba(240, 181, 86, 0.8); }
+	.dt-sc-button.ocean:hover { background-color: rgba(240, 181, 86, 0.9); }
 	.dt-sc-button.royalblue:hover { background:#123d76; *background:#123d76; background:#123d76\0/; }	
 	.dt-sc-button.violet:hover { background:#5b5188; *background:#5b5188; background:#5b5188\0/; }	
 	.dt-sc-button.yellow:hover { background:#dab10d; *background:#dab10d; background:#dab10d\0/; }	
@@ -511,8 +511,8 @@
 	
 	/*----*****---- << Animated Num Chart  >> ----*****----*/	
 
-	.dt-sc-animate-num { text-align:center; padding-left: 50px; }
-	.dt-sc-animate-num .dt-sc-icon { height: 150px; margin-bottom: 15px; margin-top: 20px; margin-left: auto; margin-right: auto; position: relative; text-align: center; width: 150px; }
+	.dt-sc-animate-num { text-align:center; padding-left: 50px; padding-right: 50px;}
+	.dt-sc-animate-num .dt-sc-icon { height: 150px; margin-bottom: 15px; margin-top: 20px; margin-left: auto; margin-right: auto; position: relative; text-align: center; }
 	.dt-sc-animate-num .dt-sc-num-count { color: #3f4149; display: inline-block; font-size: 40px; margin-bottom: 10px;  position: relative;font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: 8px; margin: 0 auto; }
 	.numero_datos{color: #3f4149; display:block; font-size: 30px; margin-bottom: 10px; font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: 8px;}
 	.percent{position: relative;}
@@ -540,7 +540,7 @@
 	.testimonial-content blockquote span.quote-shape { content:""; position:absolute; left:325px; /*top:161px;*/ bottom: -25px; border-left: 17px solid; border-bottom:24px solid rgba(0, 0, 0, 0); }
 	.testimonial-content blockquote:before { content:""; background:url(../images/bl-quote.jpg); height:60px; left:23px; position:absolute; top:-34px; width:71px; z-index:-1; }	
 	
-	.carousel-wrapper, .dt-sc-testimonial-carousel-wrapper { float:left; width:100%; margin:0; padding:0; position:relative; }
+	.carousel-wrapper, .dt-sc-testimonial-carousel-wrapper { float:left; width:100%; margin:0; padding:0; position:relative; z-index: 9; }
 	.carousel-wrapper .team-carousel {  float:left; width:100%; margin:0px; padding:0; height: 500px;  }
 	.dt-sc-testimonial-carousel-wrapper .column{ margin: 0; overflow: hidden; }
 	.dt-sc-testimonial-carousel-wrapper .testimonial-wrapper .rounded-image { margin: 0 0 0 5px; }
@@ -580,7 +580,7 @@
 	.dt-sc-team h3 { margin-bottom:32px; }
 	.dt-sc-team h6 { margin-bottom:20px; }
 	
-	.dt-sc-team.type1 { padding: 30px 120px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+	.dt-sc-team.type1 { padding: 30px 40px 30px 40px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
 	.dt-sc-team.type1 .profile-image:before { content: ""; background-color:#efecec; height: 240px; margin: auto; position: absolute; left: 0; right: 0; top: -10px; width: 240px; z-index:-1 ; border-radius: 100%; border: 2px solid rgba(255, 255, 255, 0.15); }
 	
 	/*.dt-sc-team.type1, .dt-sc-team.type1 .profile-image:before { transition: all 300ms linear 0s; -webkit-transition: all 300ms linear 0s; -moz-transition: all 300ms linear 0s; -ms-transition: all 300ms linear 0s; -o-transition: all 300ms linear 0s; }*/
@@ -678,7 +678,7 @@
 	ul.dt-sc-fancy-list.type2 li { font-size: 16px; line-height: 30px; padding-left: 30px; padding-bottom: 0; }
 	ul.dt-sc-fancy-list li ul { padding-left: 0; }
 	
-	ul.dt-sc-fancy-list.arrow li { padding-left:15px; }
+	ul.dt-sc-fancy-list.arrow li { padding-left:50px; }
 	
 	ul.dt-sc-fancy-list li:before { font-family: FontAwesome; font-style: normal; color: #333334; font-weight: normal; text-decoration: inherit; font-size: 8px; position: relative; top: 0; left: 0; line-height: 15px; padding-left: 4px; padding-right: 9px; }
 	ul.dt-sc-fancy-list.type2 li:before { font-size: 16px; }
