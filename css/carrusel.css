@@ -78,36 +78,38 @@
 	display: block; 
 	width: 90%; 
 	font-weight: 500; 
-  text-align: center;
-  color: #121939;
+  text-align: justify;
+  
+  
   
 }
 .descripcion_slider{
-	position: absolute; 
-	top: 430px; 
+	position: relative; 
+	top: 120px; 
 	width: 100%;
 }
 .titulo_slider{
-			position: absolute;
-      top: 376px;
+			position: relative;
+      top: 116px;
       width: 100%;
       text-align: center;
       font-size: 22px;
       font-weight: 600;
-      color: #121939;
+      color: #f0b556;
       padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 0px; margin-top: 20px;
+    margin-bottom: 20px;
 }
 .slider img{
 	margin-left: auto; margin-right: auto; display: block;border-radius: 50%; overflow: hidden; width: 258px; height: 258px;
 }
 .slider_contenido_imagen{
-	position: absolute; 
+	position: relative; 
 	top: 100px; 
 	width: 100%; 
 }
 .slider_fecha{
-	color: #121939;
+  color: #f0b556;
     font-size: 38px;
     font-weight: 800;
     position: absolute;
@@ -170,9 +172,11 @@
 .active, .dot:hover{
 	background-color:#f0b556;
 	transform:scale(1.1) ;
-	color:#fff !important;
+	color:#fff !important;}
   
   
+.linea_dot{
+  width: 94%; height: 2px; background-color: #dcd8d5; margin-left: 35px; margin-right: 20px; margin-top: -64px;
 }
 
 /* Fading animation */
@@ -196,4 +200,36 @@
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+@media only screen and (max-width: 479px) {
+  .dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 17px;
+    background-color: #f7f4f2;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 300ms;
+    
+  }
+  .fecha_texto {
+    text-align: center;
+    position: relative;
+    float: left;
+    top: 30px;
+    left: 0px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.linea_dot{
+  width: 86%;
+height: 2px;
+background-color: #dcd8d5;
+margin-left: 35px;
+margin-right: 20px;
+margin-top: -37px;
+}
 }
