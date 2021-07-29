@@ -11,6 +11,44 @@
 
 
 	/*----*****---- << Nuevos estilos >> ----*****----*/
+	.contenedor_info_servicio_taxi{
+	border-bottom: 2px solid #f0b556;
+    border-left: 2px solid #f0b556;
+    border-right: 2px solid #f0b556;
+    display: inline-block;
+    width: 92.4%;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+	}
+	.contenedor_info_servicio_especial{
+		
+	}
+
+	.linea_left_ul{
+	border-left: 2px solid #f0b556 !important ;
+	padding-bottom: 60px;
+	display: block;
+	padding-top: 26px;
+	}
+	.servicio-especial{
+	background: linear-gradient(-45deg, #2e2e2e 50%, #414141 50%);
+    height: 251px;
+    border-top-right-radius: 20px;
+	}
+	.servicio_taxi{
+	border-top: 2px solid #f0b556;
+	border-top-left-radius: 20px;
+	display: block;
+	
+	}
+	.boton_clases_taxi{
+		background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.6));
+        border: 1px solid rgba(255, 255, 255, 0.2);
+		box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+		border-radius: 30px;
+	}
 	.margen-top{
 		margin-top: 50px;
 	}
@@ -49,14 +87,14 @@
 		position: relative;
 		z-index: 9;
 	}
-	.lineas-nosotros-01{
+	.lineas-nosotros-01 {
 		width: 100%;
 		height: 20px;
 		background: linear-gradient( 
 	90deg
-	, rgb(240, 181, 86), rgb(251, 196, 108));
+	 , rgb(240, 181, 86), rgb(251, 196, 108));
 		position: relative;
-		margin-top: -167px;
+		margin-top: -337px;
 		margin-bottom: 30px;
 		box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
 	}
@@ -334,6 +372,69 @@
 	background-color: rgba(240, 180, 86, 0.9);
 }
 	}
+
+/*--------tooltip--------*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tiptext {
+    visibility: hidden;
+    width: 210px;
+    
+    background: linear-gradient(-45deg, #DADADA 50%, #F5F5F5 50%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #8d8d8d;
+    text-align: center;
+    border-radius: 16px;
+    padding: 0px 0px 3px 0px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.tooltip .tiptext::after {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+}
+.tooltip:hover .tiptext {
+    visibility: visible;
+}
+.tooltip.bottom .tiptext{
+    margin-left: -109px;
+    top: 150%;
+    left: 50%;
+}
+.tooltip.bottom .tiptext::after{
+    margin-left: -5px;
+    bottom: 100%;
+    left: 50%;
+    border-color: transparent transparent #F5F5F5 transparent;
+}
+.tooltip.top .tiptext{
+    margin-left: -60px;
+    bottom: 150%;
+    left: 50%;
+}
+.tooltip.top .tiptext::after{
+    margin-left: -5px;
+    top: 100%;
+    left: 50%;
+    border-color: #F5F5F5 transparent transparent transparent;
+}
+.tooltip.left .tiptext{
+    top: -56px;
+    right: 110%;
+}
+.tooltip.left .tiptext::after{
+    margin-top: -5px;
+    top: 50%;
+    left: 100%;
+    border-color: transparent transparent transparent #F5F5F5;
+}
+/*------//tooltip//--------*/
 	/* modal
 ------------------------------------- */
 .video{
@@ -360,12 +461,14 @@
 .modal-contenido{
   
   width: 50%;
-  margin: 27% auto;
+  margin: 7% auto;
   position: relative;
   text-align: center;
+  
 }
 .modal{
-  background-color: rgba(0,0,0,.8) ;
+background: linear-gradient(rgba(27, 31, 59, 0.9),rgba(27, 31, 59, 0.6));
+backdrop-filter: blur(4px);
   position:fixed;
   top:0;
   right:0;
@@ -388,7 +491,16 @@
 	opacity:1;
 	pointer-events:auto;
 }
-
+.texto-modal{
+		display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    color: #f9f9f9 !important;
+    width: 100%;
+	bottom: 10px;
+	font-size: 20px;
+	}
 
 
 /*  fin modal
@@ -738,7 +850,8 @@
 	
 	.column { float: left; margin: 0 0 0 2%; min-height: 1px; position: relative; }
 	.column-2 { float: right; margin: 0 0 0 2%; min-height: 1px; position: relative; }
-	.column-3 { float: left; margin: 0 0 0 4%; min-height: 1px; position: relative; } 
+	.column-3 { float: left; margin: 0 0 0 4%; min-height: 1px; position: relative; }
+	.column-4 { float: left; margin: 0 0 0 0%; min-height: 1px; position: relative; } 
 	.column.first { margin-left: 0; }
 	.column.first_2 { margin-left: 100px; }
 	.column.first_3 { margin-left: 80px; }
@@ -748,7 +861,7 @@
 	
 	.dt-sc-one-half { width: 48%; }
 	.dt-sc-one-half-2 { width: 18% !important; }
-	.dt-sc-one-third { width: 40%; }
+	.dt-sc-one-third { width: 42%; }
 	.dt-sc-two-third { width: 59%; }
 	.dt-sc-one-fourth { width: 23.5%; }
 	.dt-sc-three-fourth { width: 74.5%; }
@@ -1008,6 +1121,7 @@
 	.content-main { float:left; padding: 80px 0; width:100%; }
 	.content-main_2 { float:left; padding: 20px 0; width:100%; }	
 	.container { margin: 0 auto; width: 1170px; }
+	.container_2 { margin: 0 auto; width: 1170px; }
 	.container-fluid { margin: 0 auto;width: 1390px; }	
 	.content { clear: both; float: left; width: 100%; }	
 	

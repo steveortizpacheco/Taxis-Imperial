@@ -1086,7 +1086,8 @@
 			right: 119px;
 		}
 		
-		.container { width:290px; }		
+		.container { width:290px; }
+		.container_2 { width:300px; }			
 		.boxed .wrapper, .boxed #header { width:100%; }
 		
 		#primary, #secondary { width:100%; }

@@ -34,15 +34,29 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-	<link rel="stylesheet" id="rs-plugin-settings-css"  href="css/settings.css" type="text/css" media="all" />    
+    <link rel="stylesheet" id="rs-plugin-settings-css"  href="css/settings.css" type="text/css" media="all" /> 
 
-    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BF2FLJWFKT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BF2FLJWFKT');
+</script> 
+<!-- //Global site tag (gtag.js) - Google Analytics// -->     
+
+<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script> 
     
     <script type="text/javascript">
 	var mytheme_urls = {
  		scroll : 'disable'
 	};
-	</script>     	
+</script> 
+ 	
 
 </head>
 
@@ -88,10 +102,10 @@
                                         <li> <a href="conductor.html" title="">   Conductor </a> </li>                                 
                                     </ul>
                                     <div class="boton-header-01">
-                                        <a class="dt-sc-button alignleft ocean margen-boton-header " target="_blank" href="perdir_taxi.html"><span class="interior_boton boton-header-01"> Solicitar <b>Servicio</b></span></a>
+                                        <a class="dt-sc-button alignleft ocean margen-boton-header " target="_blank" href="http://app.taxiimperial.com.co/login"><span class="interior_boton boton-header-01"> Reservar <b>Servicio</b></span></a>
                                     </div>
                                     <div class="boton-header-01">
-                                        <a class="dt-sc-button alignleft ocean margen-boton-header" target="_blank" href="perdir_taxi.html"><span class="interior_boton-4 boton-header-01"> Calcular $ <b>costo de servicio</b></span></a>
+                                        <a class="dt-sc-button alignleft ocean margen-boton-header" target="_blank" href="http://app.taxiimperial.com.co/calculadora"><span class="interior_boton-4 boton-header-01"> Calcular $ <b>costo de servicio</b></span></a>
                                     </div>
                                     <div class="boton-header-02">
                                         <a class="dt-sc-button alignleft ocean margen-boton-header" target="_blank" href="#"><span class="menu-icon fas fa-taxi interior_icono ta-icon"></br><b class="texto-boton-2">solicitar</br> servicio</b></span></a>
@@ -208,7 +222,7 @@
                                   data-endelementdelay="0.1"
                                   data-endspeed="300"
                                   style="z-index: 999; max-width: auto; max-height: auto; white-space: nowrap;">
-                                  <a class="dt-sc-button  alignleft  ocean" target="_blank" href="https://play.google.com/store/apps/details?id=com.cotech.taxislibres&hl=es"><span class="interior_boton-3"> Viaja con<br><b>nosotros</b></span></a>
+                                  <a class="dt-sc-button  alignleft  ocean" target="_blank" href="http://app.taxiimperial.com.co/login"><span class="interior_boton-3"> Viaja con<br><b>nosotros</b></span></a>
                               </div>
                               <div class="tp-caption "
                               data-x="100"
@@ -222,7 +236,7 @@
                               data-endelementdelay="0.1"
                               data-endspeed="300"
                               style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap; ">
-                              <a class="dt-sc-button alignleft ocean margen-left" target="_blank" href="https://play.google.com/store/apps/details?id=com.taxislibres.conductor"><span class="interior_boton-2"> Conduce con <br><b>nosotros</b></span></a> <div class="dt-sc-clear"></div>
+                              <a class="dt-sc-button alignleft ocean margen-left" target="_blank" href="#"><span class="interior_boton-2"> Conduce con <br><b>nosotros</b></span></a> <div class="dt-sc-clear"></div>
                           </div>
                           </li>     
                         
@@ -341,9 +355,171 @@
                             <div style="width: 100%; height: 10px;  background: linear-gradient( 90deg, rgb(224, 138, 85), rgb(248, 151, 92)); position: relative;margin-top: -24px; margin-bottom: 30px;box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);"></div>		
                             <div class="container">
                                                                                    
-                                <h1 style="margin-top: 120px;"><span>TAXIS <b>DISPONIBLES</b></span></h1>
-                                <p style=" text-align: justify; padding-bottom: 40px;padding-right: 50px;">Contamos con 3 tipos de servicio de taxis:</p>
-                        <div class="carousel-wrapper">
+                                <h1 style="margin-top: 120px;"><span>Tipos <b>Transporte</b></span></h1>
+                                <p style=" text-align: justify; padding-bottom: 40px;padding-right: 50px;">Contamos con 2 tipos de servicio, </p>
+                                <div class="dt-sc-tabs-container type2">
+                                    <div style=" width: 100%; position: absolute;">
+                                        <div class="dt-sc-two-fifth column-4 servicio_taxi">
+                                            <div style=" margin-top: -24px;font-size: 30px;padding-left: 20px;color: #f0b556;">
+                                               Servicio de <b>Taxi</b>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="dt-sc-three-fifth column-4 servicio-especial">
+                                            <div style=" margin-top: -24px;font-size: 30px;padding-left: 20px;color: #000;">
+                                                Servicio <b>Especial</b>
+                                             </div>
+                                        
+                                        </div>
+
+                                    </div>
+                                    <ul class="dt-sc-tabs linea_left_ul">
+                                        <li class="current boton_clases_taxi"><a class="current" href="#">
+                                            <div> <img alt="team-member" src="images/taxis/taxi-app-sin-fondo.png"></div>
+                                            <div>Servicio Taxi</div>
+                                        </a></li>
+                                        <li class="boton_clases_taxi"><a href="#" title="">
+                                            <div> <img alt="team-member" src="images/taxis/minivan-app-sin-fondo.png"></div>
+                                            <div style="color: #2e2e2e; font-weight: 600;">Servicio Especial</div>
+                                            <div style="position: absolute;
+                                            color: #2e2e2e;
+                                            text-align: center;
+                                            margin-top: -11px;
+                                            width: 100%;"><b style="background-color: #f0b556; padding: 5px 10px 0px 10px; letter-spacing: 2px;">Minivan</b></div>
+                                        </a></li>
+                                        <li class="boton_clases_taxi"><a href="#" title="">
+                                            <div> <img alt="team-member" src="images/taxis/van-app-sin-fondo.png"></div>
+                                            <div style="color: #2e2e2e; font-weight: 600;">Servicio Especial</div>
+                                            <div style="position: absolute;
+                                            color: #2e2e2e;
+                                            text-align: center;
+                                            margin-top: -11px;
+                                            width: 100%;"><b style="background-color: #f0b556; padding: 5px 10px 0px 10px; letter-spacing: 2px;">Van</b></div>
+                                        </a></li>
+                                    </ul>
+                                    
+                                    <div class="dt-sc-tabs-content">
+                                       <!-- <div style="border-left: 2px solid #000;
+                                        margin-top: 62px;
+                                        
+                                        border-right: 2px solid #000;
+    width: 100%;">
+                                            <h3>Categoría TAXI</h3>                                                       
+                                            <p>En esta categoría no es posible realizar paradas intermedias o pausas, tampoco cambios en las direcciones de origen o destino.</p>
+                                        </div>-->
+                                       
+                                         <div class="contenedor_info_servicio_taxi">   
+                                            <div class="dt-sc-one-half column first" >
+                                                <div class="dt-sc-hr-invisible"></div>
+                                                <div class="dt-sc-clear"></div>
+                                                <h3 style="margin-top: 15px;margin-bottom: 10px;">Servicio Taxi</h3>                                                       
+                                                <p>En esta categoría no es posible realizar paradas intermedias o pausas, tampoco cambios en las direcciones de origen o destino.</p>
+                                                   
+                                                <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 600;">Precio por</h3>
+                                                <div style="position: absolute;">Precio por km :</div>
+                                                <div style="text-align: right; font-weight: 600;margin-bottom: 10px;">$3200 pesos </div>  
+                                                <div style="position: absolute;">Precio por minuto :</div>
+                                                <div style="text-align: right; font-weight: 600;margin-bottom: 20px;">$3200 pesos </div>  
+                                                <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px;font-size: 16px; font-weight: 600;">Tarifa mínima reserva</h3>
+                                                <div style="position: absolute;">Tarifa mínima reserva :</div>
+                                                <div style="text-align: right; font-weight: 600;margin-bottom: 20px;">$3200 pesos </div> 
+                                                <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px;font-size: 16px; font-weight: 600;">Tiempo de espera</h3>
+                                                <div >Tiempo de cortesía (en todos tus viajes) en peticiones inmediatas <b>5 mins</b></div>
+                                                <div >Tiempo de espera en aeropuerto <b>15 mins</b></div>
+                                                
+                                                                                                                                                     
+                                            </div>                      
+                                        
+                                            <div class="dt-sc-one-half column" style="float: right;">
+                                                <div class="dt-sc-hr-invisible"></div>
+                                                <div class="dt-sc-clear"></div>                                           
+                                                <!--<img class="aligncenter" src="images/taxis/taxi-tarifa.png" alt="server4">-->
+                                                <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 600;">Tarifa mínima petición inmediata</h3>
+                                                <div style="position: absolute;">Tarifa mínima petición inmediata :</div>
+                                                <div style="text-align: right; font-weight: 600;margin-bottom: 10px;">$3200 pesos </div>
+                                                <div style="position: absolute;">Aeropuerto (origen) :</div>
+                                                <div style="text-align: right; font-weight: 600;margin-bottom: 10px;">$3200 pesos </div>
+                                                <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 600;">Extras</h3>
+                                                
+                                                <div style="text-align:left;margin-bottom: 10px;">Tasa de servicio, seguridad y sostenibilidad <b>4% respecto al total del viaje</b> </div>
+                                            
+                                                
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    
+                                    <div class="dt-sc-tabs-content">
+                                        
+                                        <div style=" background-color: #414141; display: inline-block; width: 93%; margin-top: -30px; padding-left: 30px; padding-right: 30px;">
+                                        
+                                        <div class="dt-sc-one-half column first">
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>
+                                            <h3 style="margin-top: 15px;margin-bottom: 10px; color: #f0b556;">Servicio Especial / Minivan </h3>                                                       
+                                            <p style="color: #CFCFCF;">Este servicio es para una capacidad de entre 1 a 6 personas y cuenta con preliquidacion del valor del servicio.</p>
+                                               
+                                            <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 600;color: #f0b556;"">Precio por</h3>
+                                            <div style="position: absolute;color: #CFCFCF;">Precio por km :</div>
+                                            <div style="text-align: right; font-weight: 600;margin-bottom: 10px;color: #CFCFCF;">$2000 pesos </div>  
+                                            <div style="position: absolute;color: #CFCFCF;">Recargo destino aeropuerto:</div>
+                                            <div style="text-align: right; font-weight: 600;margin-bottom: 20px;color: #CFCFCF;">$10.000 pesos </div>  
+                                            <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px;font-size: 16px; font-weight: 600;color: #f0b556;">Tarifa mínima reserva</h3>
+                                            <div style="position: absolute;color: #CFCFCF;">Tarifa mínima reserva :</div>
+                                            <div style="text-align: right; font-weight: 600;margin-bottom: 20px;color: #CFCFCF;">$30.000 pesos </div> 
+                                          
+                                                                                                                                                 
+                                        </div>                      
+                                    
+                                        <div class="dt-sc-one-half column" style="float: right;">
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>                                           
+                                            <!--<img class="aligncenter" src="images/taxis/taxi-tarifa.png" alt="server4">-->
+                                            <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px;font-size: 16px; font-weight: 600;color: #f0b556;">Tiempo de espera</h3>
+                                            <div style="color: #CFCFCF;">Tiempo de cortesía (en todos tus viajes) en peticiones inmediatas <b>5 mins</b></div>
+                                            <div style="color: #CFCFCF;">Tiempo de espera en aeropuerto <b>15 mins</b></div>
+                                            
+                                        </div>
+                                    </div>    
+                                    </div>                                    
+                                    
+                                    <div class="dt-sc-tabs-content">
+                                       
+                                        <div style="background-color: #2e2e2e; display: inline-block; width: 93%; margin-top: -30px; padding-left: 30px; padding-right: 30px;">
+                                      
+                                        <div class="dt-sc-one-half column first">
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>
+                                            <h3 style="margin-top: 15px;margin-bottom: 10px;color: #f0b556;">Servicio Especial / Van </h3>                                                        
+                                            <p style="color: #CFCFCF;">Este servicio es para una capacidad de entre 7 a 10 personas y cuenta con preliquidacion del valor del servicio.</p>
+                                               
+                                            <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; font-weight: 600;color: #f0b556;">Precio por</h3>
+                                            <div style="position: absolute;color: #CFCFCF;">Precio por km :</div>
+                                            <div style="text-align: right; font-weight: 600;margin-bottom: 10px;color: #CFCFCF;">$3000 pesos </div>  
+                                            <div style="position: absolute;color: #CFCFCF;">Recargo destino aeropuerto:</div>
+                                            <div style="text-align: right; font-weight: 600;margin-bottom: 20px;color: #CFCFCF;">$15.000 pesos </div>  
+                                            <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px;font-size: 16px; font-weight: 600;color: #f0b556;">Tarifa mínima reserva</h3>
+                                            <div style="position: absolute;color: #CFCFCF;">Tarifa mínima reserva :</div>
+                                            <div style="text-align: right; font-weight: 600;margin-bottom: 20px;color: #CFCFCF;">$50.000 pesos </div> 
+                                            
+                                            
+                                                                                                                                                 
+                                        </div>                      
+                                    
+                                        <div class="dt-sc-one-half column" style="float: right;">
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>                                           
+                                            <!--<img class="aligncenter" src="images/taxis/taxi-tarifa.png" alt="server4">-->
+                                            <h3 style="border-bottom: 1px solid #f0b556; padding-bottom: 5px; margin-bottom: 15px;font-size: 16px; font-weight: 600;color: #f0b556;">Tiempo de espera</h3>
+                                            <div style="color: #CFCFCF;">Tiempo de cortesía (en todos tus viajes) en peticiones inmediatas <b>5 mins</b></div>
+                                            <div style="color: #CFCFCF;">Tiempo de espera en aeropuerto <b>15 mins</b></div>
+                                            
+                                        </div>    
+                                    
+                                 
+                                    </div>
+                                </div>                                                                                     
+                                </div>  
+                        <!--<div class="carousel-wrapper">
                             <div class="carousel-arrows">
                                 <a href="#" title="" class="prev-arrow"> <span class="fa fa-chevron-left"> </span> </a>
                                 <a href="#" title="" class="next-arrow"> <span class="fa fa-chevron-right"> </span> </a>
@@ -505,10 +681,10 @@
                                 </li>
                                        
                             </ul>                                               
-                        </div>                                                                                                                                    
+                        </div>-->                                                                                                                                    
                         </div>
                     </div>
-                    </div>                                                                                                                                                                      
+                    </div>                                                                                                                                                                    
                     <div class="fullwidth-section" style="background: linear-gradient( -90deg, rgb(224, 138, 85), rgb(248, 151, 92));" >
                         <div style="width: 100%; height: 80px; background: linear-gradient( 90deg, rgb(240, 181, 86), rgb(251, 196, 108));position: relative;margin-top: -90px; margin-bottom: 30px;box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);"></div>
                         <div class="fullwidth-bg margen-superior-inferior">	
@@ -668,13 +844,101 @@
                             </div>
                         </div>
                     </div>
-                    
+                   <!--protocolos aeropuerto-->
+                   <div class="fullwidth-section">
+                       <div class="fullwidth-bg">
+                           <div class="container">
+                            <h1  style="margin-top: 120px;">INFORMACION RELEVANTE PARA SU VIAJE </br><b>AEROPUERTO EL DORADO</b></h1>
+                            <p style="margin-bottom: 100px;">Podras consultar todas la novedades del aeropuerto.</p>
+                               <div>
+                                   <div class="column dt-sc-one-half first">
+                                    <div class="column dt-sc-five-sixth_2">
+                                    
+                                        <div class="dt-sc-toggle-set">
+                                            <div class="dt-sc-toggle-frame">
+                                                <h5 class="dt-sc-toggle-accordion active"><a href="#" title="">Protacolos llegadas de vuelos</a></h5>	
+                                                <div class="dt-sc-toggle-content">
+                                                    <!--<div class="dt-sc-block"><p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</p></div>-->
+                                                    <div style="display: block; width: 58%; margin: 20px auto;">
+                                                        <a class="dt-sc-button alignleft ocean" target="_blank"   href="pdf/protocolos-llegada-vuelos.pdf"><span class="interior_boton"> Descargar <b>documento</b></span></a> <div class="dt-sc-clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="dt-sc-toggle-frame">
+                                                <h5 class="dt-sc-toggle-accordion"><a href="#" title="">Protacolos salidas de vuelos</a></h5>
+                                                <div class="dt-sc-toggle-content">
+                                                    
+                                                    <div style="display: block; width: 58%; margin: 20px auto;">
+                                                        <a class="dt-sc-button alignleft ocean"  target="_blank"   href="pdf/protocolos-de-salida-vuelos.pdf"><span class="interior_boton"> Descargar <b>documento</b></span></a> <div class="dt-sc-clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="dt-sc-toggle-frame last">
+                                                <h5 class="dt-sc-toggle-accordion"><a href="#" title="">Protacolos de seguridad</a></h5>
+                                                <div class="dt-sc-toggle-content">
+                                                    <div class="dt-sc-block"><p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</p></div>
+                                                    <div style="display: block; width: 58%; margin: 20px auto;">
+                                                        <a class="dt-sc-button alignleft ocean"  target="_blank"   href="pdf/protocolo-biohazard.pdf"><span class="interior_boton"> Protocolo <b>Biohazard</b></span></a> <div class="dt-sc-clear"></div>
+                                                    </div>
+                                                    <div style="display: block; width: 58%; margin: 20px auto;">
+                                                        <a class="dt-sc-button alignleft ocean"  target="_blank"   href="pdf/protocolo-covid-19.pdf"><span class="interior_boton"> Protocolo <b>Covid-19</b></span></a> <div class="dt-sc-clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dt-sc-toggle-frame last">
+                                                <h5 class="dt-sc-toggle-accordion"><a href="#" title="">Verifique su ruta de acceso al aropuerto</a></h5>
+                                                <div class="dt-sc-toggle-content">
+                                                    <div class="dt-sc-block">
+                                                        <div>
+                                                            <iframe src="https://embed.waze.com/iframe?zoom=16&lat=4.697196&lon=-74.140519&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dt-sc-toggle-frame last">
+                                                <h5 class="dt-sc-toggle-accordion"><a href="#" title="">Acá nos puedes encontrar en el aeropuerto</a></h5>
+                                                <div class="dt-sc-toggle-content">
+                                                    <div class="dt-sc-block"><p>haz clic en el boton "puntos atencion" para ver nuestros puntos de atencion en el aeropuerto el Dorado .</p>
+                                                        <img src="images/oficinas/fondo-puntos-oficina.png" style="position: absolute; left: 0;" alt="">
+                                                        <div style="width: 100%; display: block; position: relative;">
+                                                            <div style="display: block; width: 48%; margin: 80px auto;">
+                                                            <a class="dt-sc-button alignleft ocean"  href="#miModal_3"><span class="interior_boton"> Puntos <b>Atencion</b></span></a> <div class="dt-sc-clear"></div>
+                                                        </div>
+                                                            <!--<a href="#miModal_3">
+                                                               <div style="width: 180px; margin: 10px auto; height: 80px; background-color: #f0b556;position: relative;"></div>
+                                                            </a>-->  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dt-sc-toggle-frame last">
+                                                <h5 class="dt-sc-toggle-accordion"><a href="#" title="">Información / estados de vuelos</a></h5>
+                                                <div class="dt-sc-toggle-content">
+                                                    <div class="dt-sc-block"><p>Conozca datos y estados de su vuelo.</p></div>
+                                                    <div style="display: block; width: 58%; margin: 20px auto;">
+                                                        <a class="dt-sc-button alignleft ocean"  href="https://eldorado.aero/vuelos/salidas"><span class="interior_boton"> Ir a la <b>información</b></span></a> <div class="dt-sc-clear"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="column dt-sc-one-half"><a class="twitter-timeline" data-height="700" data-theme="dark" href="https://twitter.com/BOG_ELDORADO?ref_src=twsrc%5Etfw">Tweets by BOG_ELDORADO</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   
+
                     <div class="fullwidth-section" style="background-image: url(images/fondos/fondo-03.png);">
                         <div class="fullwidth-bg">
                             <div class="container">
                                 <div class="dt-sc-clear"></div>
                                 <div class="hr-invisible-very-small"></div>   
-                                <div class="dt-sc-hr-border"> <h1 style="text-align: center; margin-top: -26px;"><span style="background-color: #f5f0ec; padding: 20px; text-align: center;">NUESTROS <b>ALIADOS</b></span></h1></div>
+                                <div class="dt-sc-hr-border"> <h1 style="text-align: center; margin-top: -26px;"><span style="background-color: #f5f0ec; padding: 20px; text-align: center;">ENLACES <b>INTERES</b></span></h1></div>
                                 <div class="dt-sc-clear"></div>    
                                                                  
                                 <!-- **Partner Carousel Wrapper** -->
@@ -686,11 +950,13 @@
                                             <li> <a href="https://www.movilidadbogota.gov.co/web/" title=""> <img src="images/aliados/secretaria_movilidad-01.png" alt="client3"> </a> </li>
                                             <li> <a href="https://www.movilidadbogota.gov.co/web/" title=""> <img src="images/aliados/secretaria_movilidad-02.png" alt="client4"> </a> </li>
                                             <li> <a href="https://www.movilidadbogota.gov.co/web/" title=""> <img src="images/aliados/secretaria_movilidad-03.png" alt="client5"> </a> </li>
+                                            <li> <a href="https://www.sic.gov.co/" title=""> <img src="images/aliados/Industria-comercio.png" alt="client5"> </a> </li>
                                             <li> <a href="https://www.opain.co/" title=""> <img src="images/aliados/opain.png" alt="client1"> </a> </li>
                                             <li> <a href="https://www.policia.gov.co/" title=""> <img src="images/aliados/policia.png" alt="client2"> </a> </li>
                                             <li> <a href="https://www.movilidadbogota.gov.co/web/" title=""> <img src="images/aliados/secretaria_movilidad-01.png" alt="client3"> </a> </li>
                                             <li> <a href="https://www.movilidadbogota.gov.co/web/" title=""> <img src="images/aliados/secretaria_movilidad-02.png" alt="client4"> </a> </li>
                                             <li> <a href="https://www.movilidadbogota.gov.co/web/" title=""> <img src="images/aliados/secretaria_movilidad-03.png" alt="client5"> </a> </li>
+                                            <li> <a href="https://www.sic.gov.co/" title=""> <img src="images/aliados/Industria-comercio.png" alt="client5"> </a> </li>
                                                                                
                                         </ul>           
                                     </div>
@@ -883,8 +1149,40 @@
             <div class="dt-sc-hr-invisible-small"></div>
             <!--<div class="triangulo-footer-01"></div>-->
 
-        </div>  
-         
+        </div>
+        <div id="miModal_3" class="modal">
+            <div class="modal-contenido">
+                <a href="#" style="position: absolute;z-index: 222;top: -43px;right: 0px; font-size: 30px; color: #f0b556;"><i class="far fa-times-circle"></i></a>
+                <div style="width: 100%; display: block; position: relative;">
+                    <div class="tooltip bottom" style="width: 50px; height: 50px; margin-left: 157px; margin-top: 17px; position: absolute;">
+                        <span class="tiptext">
+                            <div><img src="images/oficinas/punto-uno.jpg" style="border-top-left-radius:18px;border-top-right-radius: 18px;"></div>
+                            <div style="font-weight: 600;font-size: 16px;color: #2e2e2e;">Entrada # 3</div>
+                        </span>
+                    </div>
+                    <div class="tooltip left" style="width: 50px; height: 50px; margin-left: 470px; margin-top: 330px; position: absolute;">
+                        <span class="tiptext">
+                            <div><img src="images/oficinas/punto-uno.jpg" style="border-top-left-radius:18px;border-top-right-radius: 18px;"></div>
+                            <div style="font-weight: 600;font-size: 16px;color: #2e2e2e;">Entrada # 7</div>
+                        </span>
+                    </div>
+                    <div >
+                        <img src="images/modal-mapa-ubicaciones.png" style="margin: 0 auto; display: block; ">
+                       
+                    </div>
+                   
+                </div>
+                <div style="text-align: justify; margin-top: 20px; margin-bottom: 120px; color: #fff;">
+                    <div>
+                        <h1 class="nombre">Puntos <b>Informacion</b></h1>
+                    </div>
+                    <p style="color: #fff;">Clic al punto naranja para ver mas informacion sobre el punto de informacion. </p>
+                    
+                </div>
+            </div>
+            </div>  
+          </div>
+          <!-- The Modal -->
         <!-- **Footer** -->
         <footer id="footer" style="background-color:#e28b56;" >
             <div style="width: 100%; height: 122px; background: linear-gradient( 90deg, rgb(240, 181, 86), rgb(251, 196, 108));position: relative;margin-top: -170px; margin-bottom: 100px;box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);"></div>
@@ -908,15 +1206,18 @@
                             <li><a href="#" title="">Empresas</a></li>
                             <li><a href="#" title="">Conductor</a></li>                              
                         </ul>
-                        <a class="dt-sc-button    alignleft  ocean" target="_blank" href="#"><span class="interior_boton"> Solicitar <b>Servicio</b></span></a> <div class="dt-sc-clear"></div>
+                        <a class="dt-sc-button    alignleft  ocean" target="_blank" href="http://app.taxiimperial.com.co/login"><span class="interior_boton"> Reservar <b>Servicio</b></span></a> <div class="dt-sc-clear"></div>
                     </aside>
-                    <h3 class="widgettitle">App Taxi Imperial Usuario<span></span></h3>   
-                    <ul >
+                    <h3 class="widgettitle">App Taxi Imperial Usuario<span></span></h3>
+                    <div>
+                        <a class="dt-sc-button    alignleft  ocean" target="_blank" href="http://app.taxiimperial.com.co/login"><span class="interior_boton"> Ingresar <b>App Usuario Taxi Imperial</b></span></a> <div class="dt-sc-clear"></div>
+                    </div>   
+                    <!--<ul >
                         <a class="tienda_footer" href="#"><img src="images/tiendas/playstore.png" class="boton-tiendas"></a></br>
                         <a class="tienda_footer" href="#"><img src="images/tiendas/appstore.svg" class="boton-tiendas"></a></br>
                         <a class="tienda_footer" href="#"><img src="images/tiendas/huawei.png" class="boton-tiendas"></a>
                       
-                    </ul>                 
+                    </ul> -->                
                 </div>
                 <div class="column dt-sc-one-fourth">
                     <aside class="widget widget_links">
@@ -924,7 +1225,7 @@
                         <ul>
                             <li><a href="#" title="" style="padding-left: 20px;">Aviso legal Página Web</a></li>
                             <li><a href="#" title="" style="padding-left: 20px;">Peticiones quejas y reclamos</a></li>
-                            <li><a href="#" title="" style="padding-left: 20px;">Política de Tratamiento de Datos</a></li>
+                            <li><a href="pdf/Politica-de-Tratamiento-de-Datos-TaxisImperial.pdf" title="" style="padding-left: 20px;">Política de Tratamiento de Datos</a></li>
                             <li><a href="#" title="" style="padding-left: 20px;">Transparencia y acceso a la información</a></li>
                             <li><a href="#" title="" style="padding-left: 20px;">Aviso de privacidad Política anticorrupción antisoborno y antifraude</a></li>
                                                         
