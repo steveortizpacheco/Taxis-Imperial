@@ -42,7 +42,7 @@
 
 	/*----*****---- << Horizontal Tabs >> ----*****----*/
 	
-	.dt-sc-tabs-container { clear:both; float:left; /*margin: 0 0 20px;*/ margin: 0; padding: 0; width:100%; }
+	.dt-sc-tabs-container { clear:both; float:left; margin: 0 0 90px;  padding: 0; width:100%;position: relative;z-index: 3; }
 	ul.dt-sc-tabs-frame { float:left; margin:0px 2% 0px 0; padding:0px; width:98%; }
 	ul.dt-sc-tabs-frame li { float: left; display: inline; margin: 0 0 0 10px; padding: 0; }
 	ul.dt-sc-tabs-frame li a { border-style: solid; border-width: 2px 1px 0 1px; float:left; margin:0px; padding:0px 20px; text-align:center; color:#333334; line-height:40px; }
@@ -52,18 +52,18 @@
 	
 	/*----*****---- << Frameless Tabs >> ----*****----*/
 	
-	ul.dt-sc-tabs { border-bottom: 2px solid; float:left; width:100%; margin-bottom:15px; }
+	ul.dt-sc-tabs { /*border-bottom: 2px solid;*/ float:left; width:100%;  position: relative; border-left: 2px solid #f0b556;}
 	ul.dt-sc-tabs li { float:left; display:inline; padding:0 10px 0 0; }
 	ul.dt-sc-tabs li a { display: inline-block; line-height: 40px; position: relative; }
 	ul.dt-sc-tabs li a:after { border-bottom: 2px solid; content:""; height:100%; position:absolute; bottom: -2px; left:0; right:0; width:100%; transition:all 300ms linear; -webkit-transition:all 300ms linear; -moz-transition:all 300ms linear; -o-transition:all 300ms linear; -ms-transition:all 300ms linear; }
 	
 	.dt-sc-tabs-container.type2 ul.dt-sc-tabs { border: none; text-align: center; }
-	.dt-sc-tabs-container.type2 ul.dt-sc-tabs li { display: inline-block; float: none; margin: 0 -2px; padding: 0; }
-	.dt-sc-tabs-container.type2 ul.dt-sc-tabs li a { border-style: solid; border-width: 1px 0 2px 1px; font-size: 16px; line-height: 50px; padding: 0 20px; }
+	.dt-sc-tabs-container.type2 ul.dt-sc-tabs li { display: inline-block; float: none; margin: 0 40px; padding: 0; }
+	.dt-sc-tabs-container.type2 ul.dt-sc-tabs li a { border-style: solid; border-width: 1px 0 2px 1px; font-size: 16px; line-height: 50px; padding: 20px 0px; }
 	.dt-sc-tabs-container.type2 ul.dt-sc-tabs li a:after { content: none; /*left: -1px; width: auto;*/ }
-	.dt-sc-tabs-container.type2 ul.dt-sc-tabs li:last-child a { border-right: 1px solid; }
+	.dt-sc-tabs-container.type2 ul.dt-sc-tabs li:last-child a { border-right: none; }
 	
-	.dt-sc-tabs-container.type2 .dt-sc-tabs-content { background: #fff; display: block; }
+	.dt-sc-tabs-container.type2 .dt-sc-tabs-content { background: transparent; display: block; }
 	
 	/*----*****---- << Toggle & Accordion >> ----*****----*/
 	

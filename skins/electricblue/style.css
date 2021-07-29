@@ -93,19 +93,19 @@ ul.dt-sc-tabs-vertical-frame li.first.current { border-top-color: #405069; }
 
 .side-nav-container ul li:hover i { border-left-color: #3a3a3a; }
 
-th, #bbar-wrapper.header1 .float-left .icon span, .testimonial-content blockquote span.quote-shape, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li:last-child a { border-left-color:#f0b556; }
+th, #bbar-wrapper.header1 .float-left .icon span, .testimonial-content blockquote span.quote-shape, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li:last-child a { border-left-color:none; }
 
 th, .fullwidth-section.light-bg .dt-sc-toggle-frame  { border-bottom-color: #d3dae5; }
 
 ul.dt-sc-tabs, ul.dt-sc-tabs li a:after, .dt-sc-toggle-frame.last, .dt-sc-pricing-table.type2 th { border-bottom-color: #f5f0ec; }
 
-input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea, select, .selection-box:after, .searchform, .contact-info .textwidget p, .entry-meta, .entry-format, .portfolio-single p.item-desc, .post-nav-container, .side-nav-container ul li, .side-nav-container ul li:first-child, .side-nav-container ul li:hover a, .testimonial-content blockquote, ul.dt-sc-tabs-vertical-frame li, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li a, .dt-sc-pricing-table.type2 table, .dt-sc-pricing-table.type2 td, .dt-sc-tabs-frame-content, .dt-sc-toggle-frame, .widget_tag_cloud a, .frequent-loads li, .dt-sc-box-content, .dt-sc-box-content.first, .dt-sc-box-content:hover .dt-sc-box-overlay1, .dt-sc-box-content:hover .dt-sc-box-overlay2, .dt-sc-box-content:hover .dt-sc-box-overlay3, #bbar-wrapper.header1 .float-left .ico-phone, .dt-sc-pricing-table.type2 td.price .dt-sc-button { border-color: #f5f0ec; }
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea, select, .selection-box:after, .searchform, .contact-info .textwidget p, .entry-meta, .entry-format, .portfolio-single p.item-desc, .post-nav-container, .side-nav-container ul li, .side-nav-container ul li:first-child, .side-nav-container ul li:hover a, .testimonial-content blockquote, ul.dt-sc-tabs-vertical-frame li, .dt-sc-tabs-container.type2 ul.dt-sc-tabs li a, .dt-sc-pricing-table.type2 table, .dt-sc-pricing-table.type2 td, .dt-sc-tabs-frame-content, .dt-sc-toggle-frame, .widget_tag_cloud a, .frequent-loads li, .dt-sc-box-content, .dt-sc-box-content.first, .dt-sc-box-content:hover .dt-sc-box-overlay1, .dt-sc-box-content:hover .dt-sc-box-overlay2, .dt-sc-box-content:hover .dt-sc-box-overlay3, #bbar-wrapper.header1 .float-left .ico-phone, .dt-sc-pricing-table.type2 td.price .dt-sc-button { border-color: rgba(255, 255, 255, 0); }
 
 .pagination ul li a { border-bottom-color: #405069; }
 
 ul.dt-sc-tabs-vertical-frame li.current a:after, ul.dt-sc-tabs li a.current:after, h5.dt-sc-toggle:before, h5.dt-sc-toggle-accordion:before { border-color: #5d6b81; }
 
-.dt-sc-tabs-container.type2 ul.dt-sc-tabs li a.current { border-bottom-color: #5d6b81; }
+.dt-sc-tabs-container.type2 ul.dt-sc-tabs li a.current { border: 2px solid #f0b556; border-radius: 30px; }
 
 .dt-sc-pr-tb-col:hover .dt-sc-tb-content li, .dt-sc-pr-tb-col.selected .dt-sc-tb-content li { border-color: #53c3ef; }
 
