@@ -24,13 +24,13 @@
 
 .ico-content.type1 .icon span, .dt-sc-tooltip-top, .dt-sc-tooltip-right, .dt-sc-tooltip-bottom, .dt-sc-tooltip-left { background: #f0f0f0; }
 
-th, .ico-content.type1, .ico-content-wrapper.type2:hover, ul.dt-sc-tabs-vertical-frame li.current a, .dt-sc-tabs-frame li a.current, .dropcap.dropcap-circle, .dropcap.dropcap-bordered-circle, .dropcap.dropcap-square, .dropcap.dropcap-bordered-square { background: #405069; }
+th, .ico-content.type1, .ico-content-wrapper.type2:hover, ul.dt-sc-tabs-vertical-frame li.current a, .dt-sc-tabs-frame li a.current, .dropcap.dropcap-circle, .dropcap.dropcap-bordered-circle, .dropcap.dropcap-square, .dropcap.dropcap-bordered-square { background: transparent; }
 
 .dt-sc-pricing-table.type2 thead tr th:nth-child(2n+2), .dt-sc-pricing-table.type2 tbody tr td:nth-child(2n+2) { background: #f3f8fd; }
 
 .ico-content-wrapper.type2, .dt-sc-social-icons li, .sociable_links li .fa, .search-prev, .search-next { background: transparent; }
 
-ul.dt-sc-tabs-frame li a, .dt-sc-pr-tb-col, .dt-sc-box-content .dt-sc-button { background: #e8edf2; }
+ul.dt-sc-tabs-frame li a, .dt-sc-pr-tb-col, .dt-sc-box-content .dt-sc-button { background: transparent; }
 
 .carousel-arrows a, .widget_categories ul li a:hover span { background: linear-gradient( 180deg, rgb(240, 181, 86), rgb(207, 123, 71)); }
 
