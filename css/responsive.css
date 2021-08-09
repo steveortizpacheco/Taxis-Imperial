@@ -745,6 +745,32 @@
     /* Note: Design for a width of 480px */
 		
     @media only screen and (min-width: 480px) and (max-width: 767px) {
+		.contenedor_fecha_inicio{
+			width: 70%;
+			height: 160px;
+			position: absolute;
+			z-index: 3333;
+			top: 150px;
+			right: 10px;
+			}
+		.texto_boton_idioma{
+			margin-left: 52px;
+			line-height: 38px;
+			display: none;
+		}
+		.interior_btn_idioma_2 {
+			position: absolute;
+			font-size: 14px;
+			margin-top: 86px;
+			margin-left: 145px;
+			background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+			border: 1px solid rgba(255, 255, 255, 0.2);
+			box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+			padding: 1px 10px 0px 10px;
+			border-bottom-right-radius: 13px;
+			border-top-right-radius: 13px;
+			
+		}
 		
 		.margen-boton-header{
 			margin-top: 80px;
@@ -961,6 +987,43 @@
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 		
 	@media only screen and (max-width: 479px) {
+		.contenedor_fecha_inicio{
+		width: 70%;
+		height: 160px;
+		position: absolute;
+		z-index: 3333;
+		top: 150px;
+		right: 10px;
+		}
+		.btn_google_2{
+			position: absolute;
+			z-index: 99999999;
+			top: 547px;
+			right: 0px;
+			opacity: 0;
+			
+		}
+
+		.interior_btn_idioma_2 {
+			position: absolute;
+			font-size: 14px;
+			margin-top: 547px;
+			margin-left: 0;
+			background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+			border: 1px solid rgba(255, 255, 255, 0.2);
+			box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+			padding: 1px 10px 0px 10px;
+			border-bottom-right-radius:0px;
+			border-bottom-left-radius:0px;
+			right: 0;
+			border-radius: 0px;
+			
+		}
+		.texto_boton_idioma{
+			margin-left: 52px;
+			line-height: 38px;
+			display: none;
+		}
 		.linea_left_ul {
 			
 			padding-top: 0px;
