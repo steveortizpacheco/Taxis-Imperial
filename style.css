@@ -704,7 +704,7 @@ backdrop-filter: blur(4px);
 /*  fin modal
 ------------------------------------- */
 	.texto-modal{
-		display: inline-block;
+	display: inline-block;
     margin: 0 auto;
     position: absolute;
     text-align: center;
